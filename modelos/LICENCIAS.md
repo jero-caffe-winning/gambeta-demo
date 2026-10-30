@@ -28,3 +28,12 @@
   comprimido con meshopt.
 - `futbolista.glb` (Quaternius, CC0) queda de repuesto: `?modelo=cc0` en la URL o
   `MODELO = QUATERNIUS` en `src/actors/modelo/config.ts`.
+
+## Futbolista VS (modelo en uso)
+
+- `futbolista-vs.glb` (malla): **malla propia**, hecha por código para este proyecto con
+  `scripts/futbolista-vs.mjs` (tubos facetados alrededor de los huesos: camiseta, short,
+  piel, botín, ojos y pelo; ~2 k triángulos). No sale de Remy ni de ningún modelo de terceros.
+- `futbolista-vs.glb` (esqueleto y clips): los de Mixamo de `futbolista-mixamo.glb` (ver arriba),
+  misma licencia de uso; tampoco se publican los FBX sueltos.
+- Respaldo: `?modelo=mixamo` (Remy) o `?modelo=cc0` (Quaternius) en la URL.
