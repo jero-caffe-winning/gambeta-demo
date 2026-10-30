@@ -14,4 +14,17 @@
 - El GLB se arma con `scripts/modelos.mjs` (gltf-transform + meshoptimizer: dedos fuera,
   resample, cuantización y compresión meshopt). La camiseta, la cara y el pelo los pinta
   el juego (`src/actors/modelo/`): el GLB no trae texturas.
-- Nada de Sega ni de Mixamo en esta versión.
+
+## Mixamo (modelo en uso)
+
+- futbolista-mixamo.glb: personaje Remy y animaciones de Mixamo (Adobe). Uso libre en proyectos; no se redistribuyen los archivos sueltos.
+- Clips: Offensive Soccer Idle, dribble trotando, fast run, soccer jog forward, soccer strafe
+  (izq. y der.), soccer slide tackle, running fall over slide tackle, soccer trip, soccer 360
+  spin y victory. Bajados por el usuario con su cuenta de Adobe (FBX, 30 fps, "in place").
+- Los FBX originales viven en `juego/mixamo/`, que está en `.gitignore` y fuera de `public/`:
+  no se suben ni se publican. El GLB se arma con `scripts/mixamo.mjs` (FBX2glTF +
+  gltf-transform): sin pelo, pestañas, texturas ni UV; una primitiva por prenda; el pantalón
+  ceñido debajo del short; simplificado a ~7,4 k triángulos, clips en el lugar, cuantizado y
+  comprimido con meshopt.
+- `futbolista.glb` (Quaternius, CC0) queda de repuesto: `?modelo=cc0` en la URL o
+  `MODELO = QUATERNIUS` en `src/actors/modelo/config.ts`.
