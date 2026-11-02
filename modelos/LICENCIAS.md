@@ -29,7 +29,7 @@
 - `futbolista.glb` (Quaternius, CC0) queda de repuesto: `?modelo=cc0` en la URL o
   `MODELO = QUATERNIUS` en `src/actors/modelo/config.ts`.
 
-## Futbolista VS (modelo en uso)
+## Futbolista VS (respaldo: `?modelo=vs`)
 
 - `futbolista-vs.glb` (malla): **malla propia**, hecha por código para este proyecto con
   `scripts/futbolista-vs.mjs` (tubos esculpidos alrededor de los huesos: camiseta con ribete,
@@ -39,3 +39,21 @@
 - `futbolista-vs.glb` (esqueleto y clips): los de Mixamo de `futbolista-mixamo.glb` (ver arriba),
   misma licencia de uso; tampoco se publican los FBX sueltos.
 - Respaldo: `?modelo=mixamo` (Remy) o `?modelo=cc0` (Quaternius) en la URL.
+
+## Futbolista alemán (modelo en uso)
+
+- `futbolista-aleman.glb` (malla y texturas): **"German Soccer Player Rigged Character"**, comprado
+  por el usuario en CGTrader. Autor: **constantin958**. Licencia **royalty free** de CGTrader
+  (uso en productos propios, como este juego; no permite redistribuir los archivos del modelo
+  tal cual ni venderlos como asset).
+- En el juego va **convertido**: la malla horneada (sin la pelota), con UV propias de un atlas
+  nuevo, y dos texturas derivadas (`detalle`: el sombreado del original como cociente, con
+  escudo, tiras, número, estrellas y logos borrados; `zonas`: máscaras de color del club, piel,
+  pelo y barba), en webp dentro del GLB. Los peinados son mallas propias hechas por código
+  sobre su cráneo. Esqueleto y clips: los de Mixamo (ver arriba), con rig y pesos hechos acá.
+- El GLB se arma con `scripts/futbolista-aleman.mjs` (FBX2glTF + gltf-transform + meshoptimizer
+  + sharp, fuera del proyecto).
+- **No se redistribuye crudo**: los archivos originales (FBX, OBJ, texturas PNG, `.rar`) viven en
+  `juego/modelos-fuente/aleman/`, que está en `.gitignore` y fuera de `public/`; no se suben ni
+  se publican. Solo se publica el GLB convertido.
+- Respaldo: `?modelo=vs` (malla propia, versión 7), `?modelo=mixamo` (Remy) o `?modelo=cc0`.
