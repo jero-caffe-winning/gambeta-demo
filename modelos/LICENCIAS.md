@@ -32,8 +32,10 @@
 ## Futbolista VS (modelo en uso)
 
 - `futbolista-vs.glb` (malla): **malla propia**, hecha por código para este proyecto con
-  `scripts/futbolista-vs.mjs` (tubos facetados alrededor de los huesos: camiseta, short,
-  piel, botín, ojos y pelo; ~2 k triángulos). No sale de Remy ni de ningún modelo de terceros.
+  `scripts/futbolista-vs.mjs` (tubos esculpidos alrededor de los huesos: camiseta con ribete,
+  short, piel con cabeza, manos y músculos, botín con suela y tapones, ojos y siete peinados;
+  ~5,5 k triángulos más un LOD simplificado de ~2,2 k con meshoptimizer). No sale de Remy ni
+  de ningún modelo de terceros; no usa assets externos.
 - `futbolista-vs.glb` (esqueleto y clips): los de Mixamo de `futbolista-mixamo.glb` (ver arriba),
   misma licencia de uso; tampoco se publican los FBX sueltos.
 - Respaldo: `?modelo=mixamo` (Remy) o `?modelo=cc0` (Quaternius) en la URL.
