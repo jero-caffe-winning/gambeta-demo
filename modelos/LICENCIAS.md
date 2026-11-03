@@ -57,3 +57,6 @@
   `juego/modelos-fuente/aleman/`, que está en `.gitignore` y fuera de `public/`; no se suben ni
   se publican. Solo se publica el GLB convertido.
 - Respaldo: `?modelo=vs` (malla propia, versión 7), `?modelo=mixamo` (Remy) o `?modelo=cc0`.
+
+## Sonido: ladrido del perro (`public/sfx/ladrido.mp4`)
+Recorte de "Barking dog #1" (BigSoundBank, Joseph Sardin), https://bigsoundbank.com/barking-dog-s0916.html — licencia CC0 (dominio público).
