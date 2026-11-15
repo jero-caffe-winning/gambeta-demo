@@ -63,7 +63,9 @@ Recorte de "Barking dog #1" (BigSoundBank, Joseph Sardin), https://bigsoundbank.
 
 ## Música (`public/musica/`)
 - `jugadores-1-lejos.mp3` y `jugadores-2-oidos-tapados.mp3`: los dos temas de fondo (mismo tema, dos mezclas; 42 s en loop). Los pasó Jero; acá van recomprimidos a 96 kbps.
-- **PENDIENTE: origen y licencia.** Falta que Jero confirme de dónde salen y si se pueden usar en la app.
+- Origen: generados con IA por Jero (no son de un banco ni de un artista).
+- Generados con un plan pago (confirmado por Jero el 2026-11-15), que es lo que estos generadores piden para el uso comercial.
+- Falta anotar acá el nombre de la herramienta y la cuenta, para tener el respaldo si alguien lo pide.
 
 ## Sonidos (`public/sfx/`)
 - `correct`, `error`, `level_up`, `logro`, `lose`, `mangos`, `tap`, `win` (.mp4): sonidos de la app de Winning.
@@ -73,4 +75,4 @@ Recorte de "Barking dog #1" (BigSoundBank, Joseph Sardin), https://bigsoundbank.
 ## Tipografías (`src/ui/fonts/`)
 - `GambetaSerif` (PT Serif) y `GambetaPixel` (Silkscreen): SIL OFL 1.1, licencias en la carpeta.
 - `D-DINCondensed-Bold.ttf`: D-DIN (Datto), SIL OFL 1.1.
-- `Canaro-BoldItalic.ttf`: Canaro (René Bieder), la tipografía de marca de Winning. Es comercial: confirmar que la licencia de Winning cubre web y app.
+- `Canaro-BoldItalic.ttf`: Canaro (René Bieder), la tipografía de marca de Winning. Es comercial y Winning ya la tiene paga (confirmado por Jero el 2026-11-15).
